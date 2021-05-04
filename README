@@ -1,0 +1,18 @@
+Welcome to Casey's Connect 4!
+
+This is a research project to learn about different methods of playing 2 player non-random competitve strategy games.
+Connect 4 was the game of choice.
+
+There are a few available modes to play the game
+
+Human vs Human (on a standard board)                 - option 0 on main menu
+Human vs Artificial Agent (on a standard board)      - option 1 on main menu
+Run tests via the testconfig.txt                     - option 2 on main menu
+Artificial Agent vs Artifical Agent (variable board) - option 3 on main menu
+
+The PDF of the associated paper for this project will available in the repo for the interested.
+
+
+TO RUN:
+
+make sure you have Scala 2.13.4 installed and a SDK -  I prefer openJDK-16
