@@ -1,0 +1,12 @@
+Players: m,m
+First player: m
+Winner:PLAYER 1
+Number of Moves: 7
+Sequence of Moves: [(3,X), (3,O), (2,X), (0,O), (4,X), (5,O), (1,X)]
+Final Board:
+_  _  _  _  _  _  _  
+_  _  _  _  _  _  _  
+_  _  _  _  _  _  _  
+_  _  _  _  _  _  _  
+_  _  _  O  _  _  _  
+O  X  X  X  X  O  _  

@@ -1,0 +1,448 @@
+Game starting, player m going first vs m
+Move: 0 Visits: 805 Wins: 402 Ratio: 0.4993804213135068
+Move: 1 Visits: 2485 Wins: 1416 Ratio: 0.5697627663852031
+Move: 2 Visits: 38 Wins: 20 Ratio: 0.525
+Move: 3 Visits: 1360 Wins: 700 Ratio: 0.5146842878120411
+Move: 4 Visits: 19 Wins: 8 Ratio: 0.42857142857142855
+Move: 5 Visits: 60 Wins: 31 Ratio: 0.5161290322580645
+Move: 6 Visits: 35 Wins: 18 Ratio: 0.5135135135135135
+Selected Move: 1
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  X  _  _  _  _  _
+
+Move: 0 Visits: 21 Wins: 7 Ratio: 0.34782608695652173
+Move: 1 Visits: 42 Wins: 16 Ratio: 0.38636363636363635
+Move: 2 Visits: 1883 Wins: 836 Ratio: 0.4440318302387268
+Move: 3 Visits: 1289 Wins: 556 Ratio: 0.4314484895429899
+Move: 4 Visits: 33 Wins: 14 Ratio: 0.42857142857142855
+Move: 5 Visits: 20 Wins: 8 Ratio: 0.4090909090909091
+Move: 6 Visits: 1514 Wins: 570 Ratio: 0.3766490765171504
+Selected Move: 2
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  X  O  _  _  _  _
+
+Move: 0 Visits: 11 Wins: 5 Ratio: 0.46153846153846156
+Move: 1 Visits: 27 Wins: 13 Ratio: 0.4827586206896552
+Move: 2 Visits: 23 Wins: 11 Ratio: 0.48
+Move: 3 Visits: 3481 Wins: 2019 Ratio: 0.5799598047660063
+Move: 4 Visits: 1222 Wins: 524 Ratio: 0.42892156862745096
+Move: 5 Visits: 17 Wins: 8 Ratio: 0.47368421052631576
+Move: 6 Visits: 21 Wins: 9 Ratio: 0.43478260869565216
+Selected Move: 3
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  X  O  X  _  _  _
+
+Move: 0 Visits: 12 Wins: 2 Ratio: 0.21428571428571427
+Move: 1 Visits: 14 Wins: 5 Ratio: 0.375
+Move: 2 Visits: 268 Wins: 107 Ratio: 0.4
+Move: 3 Visits: 1476 Wins: 590 Ratio: 0.39986468200270636
+Move: 4 Visits: 1062 Wins: 451 Ratio: 0.424812030075188
+Move: 5 Visits: 1954 Wins: 889 Ratio: 0.4550102249488753
+Move: 6 Visits: 16 Wins: 6 Ratio: 0.3888888888888889
+Selected Move: 5
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  X  O  X  _  O  _
+
+Move: 0 Visits: 17 Wins: 9 Ratio: 0.5263157894736842
+Move: 1 Visits: 15 Wins: 7 Ratio: 0.47058823529411764
+Move: 2 Visits: 3761 Wins: 2410 Ratio: 0.6407121977145894
+Move: 3 Visits: 952 Wins: 518 Ratio: 0.5440251572327044
+Move: 4 Visits: 32 Wins: 16 Ratio: 0.5
+Move: 5 Visits: 13 Wins: 7 Ratio: 0.5333333333333333
+Move: 6 Visits: 12 Wins: 4 Ratio: 0.35714285714285715
+Selected Move: 2
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  X  _  _  _  _
+_  X  O  X  _  O  _
+
+Move: 0 Visits: 117 Wins: 34 Ratio: 0.29411764705882354
+Move: 1 Visits: 15 Wins: 3 Ratio: 0.23529411764705882
+Move: 2 Visits: 1365 Wins: 499 Ratio: 0.365764447695684
+Move: 3 Visits: 3058 Wins: 1626 Ratio: 0.5316993464052288
+Move: 4 Visits: 172 Wins: 50 Ratio: 0.29310344827586204
+Move: 5 Visits: 63 Wins: 17 Ratio: 0.27692307692307694
+Move: 6 Visits: 12 Wins: 4 Ratio: 0.35714285714285715
+Selected Move: 3
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  _
+
+Move: 0 Visits: 12 Wins: 2 Ratio: 0.21428571428571427
+Move: 1 Visits: 48 Wins: 19 Ratio: 0.4
+Move: 2 Visits: 20 Wins: 9 Ratio: 0.45454545454545453
+Move: 3 Visits: 4675 Wins: 2293 Ratio: 0.4904853538593115
+Move: 4 Visits: 16 Wins: 6 Ratio: 0.3888888888888889
+Move: 5 Visits: 15 Wins: 7 Ratio: 0.47058823529411764
+Move: 6 Visits: 16 Wins: 7 Ratio: 0.4444444444444444
+Selected Move: 3
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  _
+
+Move: 0 Visits: 18 Wins: 4 Ratio: 0.25
+Move: 1 Visits: 8 Wins: 2 Ratio: 0.3
+Move: 2 Visits: 2886 Wins: 1062 Ratio: 0.3680747922437673
+Move: 3 Visits: 17 Wins: 5 Ratio: 0.3157894736842105
+Move: 4 Visits: 63 Wins: 18 Ratio: 0.2923076923076923
+Move: 5 Visits: 41 Wins: 16 Ratio: 0.3953488372093023
+Move: 6 Visits: 1769 Wins: 787 Ratio: 0.4449463579898362
+Selected Move: 6
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  O
+
+Move: 0 Visits: 751 Wins: 408 Ratio: 0.5431606905710491
+Move: 1 Visits: 61 Wins: 31 Ratio: 0.5079365079365079
+Move: 2 Visits: 529 Wins: 288 Ratio: 0.544256120527307
+Move: 3 Visits: 761 Wins: 436 Ratio: 0.5727391874180865
+Move: 4 Visits: 35 Wins: 19 Ratio: 0.5405405405405406
+Move: 5 Visits: 2569 Wins: 1396 Ratio: 0.543368339167639
+Move: 6 Visits: 96 Wins: 52 Ratio: 0.5408163265306123
+Selected Move: 3
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  O
+
+Move: 0 Visits: 20 Wins: 3 Ratio: 0.18181818181818182
+Move: 1 Visits: 25 Wins: 7 Ratio: 0.2962962962962963
+Move: 2 Visits: 4606 Wins: 1927 Ratio: 0.4184027777777778
+Move: 3 Visits: 21 Wins: 6 Ratio: 0.30434782608695654
+Move: 4 Visits: 17 Wins: 1 Ratio: 0.10526315789473684
+Move: 5 Visits: 15 Wins: 6 Ratio: 0.4117647058823529
+Move: 6 Visits: 98 Wins: 30 Ratio: 0.31
+Selected Move: 2
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  O
+
+Move: 0 Visits: 18 Wins: 10 Ratio: 0.55
+Move: 1 Visits: 8 Wins: 4 Ratio: 0.5
+Move: 2 Visits: 16 Wins: 6 Ratio: 0.3888888888888889
+Move: 3 Visits: 4660 Wins: 3115 Ratio: 0.6683826683826684
+Move: 4 Visits: 16 Wins: 9 Ratio: 0.5555555555555556
+Move: 5 Visits: 20 Wins: 13 Ratio: 0.6363636363636364
+Move: 6 Visits: 64 Wins: 40 Ratio: 0.6212121212121212
+Selected Move: 3
+MOVE MADE
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  O
+
+Move: 0 Visits: 22 Wins: 2 Ratio: 0.125
+Move: 1 Visits: 26 Wins: 7 Ratio: 0.2857142857142857
+Move: 2 Visits: 18 Wins: 2 Ratio: 0.15
+Move: 3 Visits: 4664 Wins: 1355 Ratio: 0.2906129447063866
+Move: 4 Visits: 16 Wins: 0 Ratio: 0.05555555555555555
+Move: 5 Visits: 19 Wins: 4 Ratio: 0.23809523809523808
+Move: 6 Visits: 37 Wins: 9 Ratio: 0.2564102564102564
+Selected Move: 3
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  _  O  O
+
+Move: 0 Visits: 14 Wins: 6 Ratio: 0.4375
+Move: 1 Visits: 34 Wins: 22 Ratio: 0.6388888888888888
+Move: 2 Visits: 12 Wins: 8 Ratio: 0.6428571428571429
+Move: 4 Visits: 4703 Wins: 3349 Ratio: 0.7120085015940489
+Move: 5 Visits: 25 Wins: 15 Ratio: 0.5925925925925926
+Move: 6 Visits: 14 Wins: 10 Ratio: 0.6875
+Selected Move: 4
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  _  _  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 25 Wins: 6 Ratio: 0.25925925925925924
+Move: 1 Visits: 24 Wins: 2 Ratio: 0.11538461538461539
+Move: 2 Visits: 138 Wins: 42 Ratio: 0.30714285714285716
+Move: 4 Visits: 40 Wins: 11 Ratio: 0.2857142857142857
+Move: 5 Visits: 4536 Wins: 1450 Ratio: 0.3197443807844866
+Move: 6 Visits: 39 Wins: 10 Ratio: 0.2682926829268293
+Selected Move: 5
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  _  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 22 Wins: 10 Ratio: 0.4583333333333333
+Move: 1 Visits: 21 Wins: 11 Ratio: 0.5217391304347826
+Move: 2 Visits: 18 Wins: 12 Ratio: 0.65
+Move: 4 Visits: 1028 Wins: 711 Ratio: 0.6912621359223301
+Move: 5 Visits: 3684 Wins: 2311 Ratio: 0.6272381985892567
+Move: 6 Visits: 29 Wins: 16 Ratio: 0.5483870967741935
+Selected Move: 4
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 26 Wins: 2 Ratio: 0.10714285714285714
+Move: 1 Visits: 32 Wins: 5 Ratio: 0.17647058823529413
+Move: 2 Visits: 4076 Wins: 1241 Ratio: 0.30456105934281513
+Move: 4 Visits: 15 Wins: 1 Ratio: 0.11764705882352941
+Move: 5 Visits: 574 Wins: 142 Ratio: 0.2482638888888889
+Move: 6 Visits: 79 Wins: 23 Ratio: 0.2962962962962963
+Selected Move: 2
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 36 Wins: 26 Ratio: 0.7105263157894737
+Move: 1 Visits: 22 Wins: 18 Ratio: 0.7916666666666666
+Move: 2 Visits: 4697 Wins: 3758 Ratio: 0.7999574377527133
+Move: 4 Visits: 21 Wins: 17 Ratio: 0.782608695652174
+Move: 5 Visits: 19 Wins: 14 Ratio: 0.7142857142857143
+Move: 6 Visits: 7 Wins: 5 Ratio: 0.6666666666666666
+Selected Move: 2
+MOVE MADE
+_  _  _  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 25 Wins: 3 Ratio: 0.14814814814814814
+Move: 1 Visits: 143 Wins: 25 Ratio: 0.1793103448275862
+Move: 2 Visits: 4442 Wins: 847 Ratio: 0.19081908190819083
+Move: 4 Visits: 17 Wins: 0 Ratio: 0.05263157894736842
+Move: 5 Visits: 14 Wins: 1 Ratio: 0.125
+Move: 6 Visits: 161 Wins: 29 Ratio: 0.18404907975460122
+Selected Move: 2
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 24 Wins: 20 Ratio: 0.8076923076923077
+Move: 1 Visits: 18 Wins: 15 Ratio: 0.8
+Move: 4 Visits: 24 Wins: 16 Ratio: 0.6538461538461539
+Move: 5 Visits: 4718 Wins: 4309 Ratio: 0.913135593220339
+Move: 6 Visits: 18 Wins: 16 Ratio: 0.85
+Selected Move: 5
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  _  X  _
+_  _  X  O  X  O  _
+_  X  O  X  X  O  O
+
+Move: 0 Visits: 3366 Wins: 280 Ratio: 0.08343230403800475
+Move: 1 Visits: 295 Wins: 16 Ratio: 0.05723905723905724
+Move: 4 Visits: 40 Wins: 0 Ratio: 0.023809523809523808
+Move: 5 Visits: 1041 Wins: 86 Ratio: 0.08341323106423777
+Move: 6 Visits: 60 Wins: 3 Ratio: 0.06451612903225806
+Selected Move: 0
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  _  X  _
+_  _  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 21 Wins: 17 Ratio: 0.782608695652174
+Move: 1 Visits: 20 Wins: 16 Ratio: 0.7727272727272727
+Move: 4 Visits: 4727 Wins: 4602 Ratio: 0.9733558891943328
+Move: 5 Visits: 11 Wins: 11 Ratio: 0.9230769230769231
+Move: 6 Visits: 23 Wins: 22 Ratio: 0.92
+Selected Move: 4
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  _  _
+_  _  O  X  X  X  _
+_  _  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 27 Wins: 0 Ratio: 0.034482758620689655
+Move: 1 Visits: 87 Wins: 3 Ratio: 0.0449438202247191
+Move: 4 Visits: 923 Wins: 46 Ratio: 0.05081081081081081
+Move: 5 Visits: 1902 Wins: 107 Ratio: 0.05672268907563025
+Move: 6 Visits: 1863 Wins: 92 Ratio: 0.04986595174262735
+Selected Move: 5
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  O  _
+_  _  O  X  X  X  _
+_  _  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 18 Wins: 18 Ratio: 0.95
+Move: 1 Visits: 4728 Wins: 4595 Ratio: 0.9716701902748415
+Move: 4 Visits: 17 Wins: 17 Ratio: 0.9473684210526315
+Move: 5 Visits: 21 Wins: 21 Ratio: 0.9565217391304348
+Move: 6 Visits: 18 Wins: 18 Ratio: 0.95
+Selected Move: 1
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  _  _
+_  _  O  X  _  O  _
+_  _  O  X  X  X  _
+_  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 246 Wins: 5 Ratio: 0.024193548387096774
+Move: 1 Visits: 103 Wins: 1 Ratio: 0.01904761904761905
+Move: 4 Visits: 323 Wins: 6 Ratio: 0.021538461538461538
+Move: 5 Visits: 4021 Wins: 97 Ratio: 0.024359930400198855
+Move: 6 Visits: 109 Wins: 1 Ratio: 0.018018018018018018
+Selected Move: 5
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  O  _
+_  _  O  X  _  O  _
+_  _  O  X  X  X  _
+_  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 4715 Wins: 4629 Ratio: 0.9815560737757049
+Move: 1 Visits: 20 Wins: 20 Ratio: 0.9545454545454546
+Move: 4 Visits: 22 Wins: 22 Ratio: 0.9583333333333334
+Move: 5 Visits: 22 Wins: 22 Ratio: 0.9583333333333334
+Move: 6 Visits: 23 Wins: 23 Ratio: 0.96
+Selected Move: 0
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  O  _
+_  _  O  X  _  O  _
+_  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 1269 Wins: 29 Ratio: 0.023603461841070025
+Move: 1 Visits: 130 Wins: 2 Ratio: 0.022727272727272728
+Move: 4 Visits: 3319 Wins: 75 Ratio: 0.022884673291177358
+Move: 5 Visits: 42 Wins: 0 Ratio: 0.022727272727272728
+Move: 6 Visits: 42 Wins: 0 Ratio: 0.022727272727272728
+Selected Move: 0
+MOVE MADE
+_  _  O  O  _  _  _
+_  _  X  X  _  O  _
+_  _  O  X  _  O  _
+O  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 18 Wins: 17 Ratio: 0.9
+Move: 1 Visits: 16 Wins: 16 Ratio: 0.9444444444444444
+Move: 4 Visits: 24 Wins: 24 Ratio: 0.9615384615384616
+Move: 5 Visits: 4719 Wins: 4672 Ratio: 0.989832662571489
+Move: 6 Visits: 25 Wins: 25 Ratio: 0.9629629629629629
+Selected Move: 5
+MOVE MADE
+_  _  O  O  _  X  _
+_  _  X  X  _  O  _
+_  _  O  X  _  O  _
+O  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 479 Wins: 0 Ratio: 0.002079002079002079
+Move: 1 Visits: 479 Wins: 0 Ratio: 0.002079002079002079
+Move: 4 Visits: 3365 Wins: 6 Ratio: 0.002079002079002079
+Move: 6 Visits: 479 Wins: 0 Ratio: 0.002079002079002079
+Selected Move: 0
+MOVE MADE
+_  _  O  O  _  X  _
+_  _  X  X  _  O  _
+O  _  O  X  _  O  _
+O  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Move: 0 Visits: 33 Wins: 33 Ratio: 0.9714285714285714
+Move: 1 Visits: 23 Wins: 21 Ratio: 0.88
+Move: 4 Visits: 4716 Wins: 4716 Ratio: 0.9997880457821111
+Move: 6 Visits: 30 Wins: 30 Ratio: 0.96875
+Selected Move: 4
+MOVE MADE
+_  _  O  O  _  X  _
+_  _  X  X  _  O  _
+O  _  O  X  X  O  _
+O  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O
+
+Player 1 Won!
+Players: m,m
+First player: m
+Winner:m
+Number of Moves: 29
+Sequence of Moves: [(1,X), (2,O), (3,X), (5,O), (2,X), (3,O), (3,X), (6,O), (3,X), (2,O), (3,X), (3,O), (4,X), (5,O), (4,X), (2,O), (2,X), (2,O), (5,X), (0,O), (4,X), (5,O), (1,X), (5,O), (0,X), (0,O), (5,X), (0,O), (4,X)]
+Final Board:
+_  _  O  O  _  X  _
+_  _  X  X  _  O  _
+O  _  O  X  X  O  _
+O  _  O  X  X  X  _
+X  X  X  O  X  O  _
+O  X  O  X  X  O  O

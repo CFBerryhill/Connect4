@@ -1,0 +1,12 @@
+Players: a,a
+First player: a
+Winner:Draw
+Number of Moves: 42
+Sequence of Moves: [(4,X), (3,O), (3,X), (4,O), (3,X), (3,O), (3,X), (4,O), (4,X), (4,O), (3,X), (1,O), (4,X), (0,O), (2,X), (1,O), (1,X), (1,O), (6,X), (6,O), (0,X), (0,O), (0,X), (5,O), (0,X), (0,O), (5,X), (1,O), (5,X), (1,O), (6,X), (2,O), (2,X), (2,O), (2,X), (2,O), (6,X), (5,O), (5,X), (5,O), (6,X), (6,O)]
+Final Board:
+O  O  O  X  X  O  O  
+X  O  X  X  O  X  X  
+X  O  O  O  X  O  X  
+O  X  X  X  O  X  X  
+X  O  O  X  O  X  O  
+O  O  X  O  X  O  X  

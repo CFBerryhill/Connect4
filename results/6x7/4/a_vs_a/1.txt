@@ -1,0 +1,12 @@
+Players: a,a
+First player: a
+Winner:PLAYER 1
+Number of Moves: 23
+Sequence of Moves: [(4,X), (3,O), (3,X), (4,O), (4,X), (3,O), (4,X), (3,O), (4,X), (4,O), (3,X), (3,O), (2,X), (2,O), (2,X), (2,O), (5,X), (0,O), (5,X), (6,O), (6,X), (5,O), (5,X)]
+Final Board:
+_  _  _  O  O  _  _  
+_  _  _  X  X  _  _  
+_  _  O  O  X  X  _  
+_  _  X  O  X  O  _  
+_  _  O  X  O  X  X  
+O  _  X  O  X  X  O  

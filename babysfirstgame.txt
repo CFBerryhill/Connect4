@@ -1,0 +1,159 @@
+Welcome to Casey's Connect 4! Would you like to play against a human, an artifical agent, or run tests? (0, 1 or 2)
+1
+Which Agent? : Random (0) : MinMaxSimple (1) : MinMax (2)
+2
+minmax selected
+Welcome to Casey's Connect 4!
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+Where would you like to drop your tile? (0-6)
+2
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  X  O  _  _  _
+Where would you like to drop your tile? (0-6)
+3
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  X  O  _  _  _
+Where would you like to drop your tile? (0-6)
+4
+_  _  _  _  _  _  _
+_  _  _  _  _  _  _
+_  _  _  O  _  _  _
+_  _  _  O  _  _  _
+_  _  _  X  _  _  _
+_  _  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+3
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  _  O  _  _  _
+_  _  _  O  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+2
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  O  O  _  _  _
+_  _  X  O  _  _  _
+_  _  O  X  _  _  _
+_  _  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+1
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  O  O  _  _  _
+_  _  X  O  _  _  _
+_  _  O  X  O  _  _
+_  X  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+1
+_  _  _  _  _  _  _
+_  _  _  X  _  _  _
+_  _  O  O  _  _  _
+_  _  X  O  O  _  _
+_  X  O  X  O  _  _
+_  X  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+4
+_  _  _  _  _  _  _
+_  _  O  X  _  _  _
+_  _  O  O  X  _  _
+_  _  X  O  O  _  _
+_  X  O  X  O  _  _
+_  X  X  O  X  _  _
+Where would you like to drop your tile? (0-6)
+0
+_  _  _  _  _  _  _
+_  _  O  X  _  _  _
+_  _  O  O  X  _  _
+_  _  X  O  O  _  _
+_  X  O  X  O  _  _
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+0
+_  _  _  _  _  _  _
+_  _  O  X  _  _  _
+_  _  O  O  X  _  _
+O  _  X  O  O  _  _
+X  X  O  X  O  _  _
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+6
+_  _  O  _  _  _  _
+_  _  O  X  _  _  _
+_  _  O  O  X  _  _
+O  _  X  O  O  _  _
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+6
+_  _  O  _  _  _  _
+_  _  O  X  O  _  _
+_  _  O  O  X  _  _
+O  _  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+6
+_  _  O  _  _  _  _
+_  _  O  X  O  _  O
+_  _  O  O  X  _  X
+O  _  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+0
+_  _  O  _  _  _  _
+O  _  O  X  O  _  O
+X  _  O  O  X  _  X
+O  _  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+0
+X  _  O  O  _  _  _
+O  _  O  X  O  _  O
+X  _  O  O  X  _  X
+O  _  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+6
+X  _  O  O  O  _  X
+O  _  O  X  O  _  O
+X  _  O  O  X  _  X
+O  _  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  _  O
+Where would you like to drop your tile? (0-6)
+1
+Player 2 Won!
+
+Players: X vs. O (Olivia vs MinMax)
+First player: X
+Winner: 2
+Number of Moves: 34
+Sequence of Moves: [(2,X), (3,O), (3,X), (3,O), (4,X), (3,O), (3,X), (2,O), (2,X), (2,O), (1,X), (4,O), (1,X), (4,O), (4,X), (2,O), (0,X), (6,O), (0,X), (0,O), (6,X), (2,O), (6,X), (4,O), (6,X), (6,O), (0,X), (0,O), (0,X), (3,O), (6,X), (4,O), (1,X), (5,O)]
+Final Board:
+X  _  O  O  O  _  X
+O  _  O  X  O  _  O
+X  _  O  O  X  _  X
+O  X  X  O  O  _  X
+X  X  O  X  O  _  X
+X  X  X  O  X  O  O
+
+
+Process finished with exit code 0

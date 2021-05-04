@@ -1,0 +1,15 @@
+Move: 0 Visits: 0 Wins: 0 Ratio: 0.5
+Move: 1 Visits: 5 Wins: 2 Ratio: 0.42857142857142855
+Move: 2 Visits: 1 Wins: 0 Ratio: 0.3333333333333333
+Selected Move: 0
+Player 2 Won!
+Players: h,m
+First player: h
+Winner:m
+Number of Moves: 10
+Sequence of Moves: [(2,X), (3,O), (1,X), (0,O), (1,X), (3,O), (3,X), (0,O), (3,X), (0,O)]
+Final Board:
+_  _  _  X
+O  _  _  X
+O  X  _  O
+O  X  X  O
