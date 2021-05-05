@@ -1,14 +1,12 @@
 package Engine
 
-import Agents.MinMax.{MinMaxNoPrunePlayer, MinMaxSimplePlayer, MinMaxTruePlayer}
+import Agents.MinMax.{MinMaxSimplePlayer, MinMaxTruePlayer}
 import Agents.MonteCarlo.MCTSPlayer
 import Agents.{Agent, HumanPlayer, RandomPlayer}
 
 import java.io.{File, FileWriter}
 import java.util
-import java.util.ArrayList
 import scala.annotation.tailrec
-import scala.collection.convert.ImplicitConversions.{`collection AsScalaIterable`, `iterable AsScalaIterable`, `list asScalaBuffer`}
 import scala.io.Source._
 import scala.io.StdIn.readLine
 
@@ -40,7 +38,7 @@ object Controller extends App {
         }
         val fileWriter = new FileWriter(new File("results/" + gconfig.filename + ".txt"))
 
-        println("Game starting, player " + gconfig.player1.id + " going first vs " + gconfig.player2.id)
+        println("Game starting, player " + gconfig.player1.id + " going first vs " + gconfig.player2.id + " trial #" +gconfig.trial_num)
         while (!gconfig.board.game_over()) {
           //fileWriter.write(gconfig.board.toString + "\n")
           gconfig.board.print_board()
