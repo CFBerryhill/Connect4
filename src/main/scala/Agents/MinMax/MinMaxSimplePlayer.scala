@@ -5,7 +5,7 @@ import Engine.Gameboard
 
 class MinMaxSimplePlayer(val board : Gameboard) extends Agent {
 
-  val id ='s'
+  val id ="Simple"
 
   //essentially infinity
   val MAXSCORE : Int = Integer.MAX_VALUE /4;

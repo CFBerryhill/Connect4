@@ -3,7 +3,7 @@ package Agents
 import Engine.Gameboard
 import scala.io.StdIn.readLine
 
-class HumanPlayer(val board : Gameboard, val id : Char) extends Agent{
+class HumanPlayer(val board : Gameboard, val id : String) extends Agent{
 
   /**
    *

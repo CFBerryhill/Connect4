@@ -10,7 +10,7 @@ import scala.util.Random
 class MinMaxTruePlayer(val board : Gameboard) extends Agent {
 
 
-  val id ='a'
+  val id = "MiniMax"
 
   //essentially infinity
   val MAX_SCORE : Int = Integer.MAX_VALUE / 4

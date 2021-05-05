@@ -7,7 +7,7 @@ import scala.util.Random
 
 class MCTSPlayer(val board : Gameboard) extends Agent {
 
-  val id = 'm'
+  val id = "MCTS"
 
   def find_move(): Int = {
     MCTS()

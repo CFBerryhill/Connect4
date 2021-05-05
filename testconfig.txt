@@ -1,4 +1,13 @@
-3
+10
 6x7
-4
-m,a
+4,5
+Random, Minimax, MCTS
+7x8
+4,5
+Random, Minimax, MCTS
+8x9
+4,5,6
+Random, Minimax, MCTS
+9x10
+4,5,6
+Random, Minimax, MCTS

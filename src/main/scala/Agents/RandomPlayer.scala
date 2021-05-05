@@ -6,7 +6,7 @@ import scala.util.Random
 
 class RandomPlayer(val board : Gameboard) extends Agent{
 
-  val id = 'r'
+  val id = "Random"
 
   def find_move() : Int = {
 

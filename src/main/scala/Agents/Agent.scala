@@ -5,7 +5,7 @@ import Engine.Gameboard
 trait Agent {
 
   val board : Gameboard
-  val id : Char
+  val id : String
 
   //if moves.size%2 == 0 before I move, then I'm the first player. else, im the second player
 

@@ -89,19 +89,17 @@ object Controller extends App {
     }
   }
 
+  @tailrec
   def get_player_from_controller(board : Gameboard): Agent = {
-    println("Which Agent? : Random (0) : MinMaxSimple (1) : MinMaxTruePlayer (2) : MonteCarloPlayer (3)")
+    println("Which Agent? : Random (0) : MinMaxTruePlayer (1) : MonteCarloPlayer (2)")
     val i = readLine().toInt
     if(i == 0) {
       println("random player selected")
       new RandomPlayer(board)
     } else if (i == 1) {
-      println("minmaxsimple selected")
-      new MinMaxSimplePlayer(board)
-    } else if (i == 2) {
-      println("minmaxtrueplayer selected")
+      println("Minimax selected")
       new MinMaxTruePlayer(board)
-    } else if (i == 3) {
+    } else if (i == 2) {
       println("montecarloplayer selected")
       new MCTSPlayer(board)
     } else {
@@ -180,10 +178,10 @@ object Controller extends App {
 
   def match_char(player : String, board : Gameboard) : Agent = {
     player match {
-      case "m" => new MCTSPlayer(board)
-      case "s" => new MinMaxSimplePlayer(board)
-      case "r" => new RandomPlayer(board)
-      case "a" => new MinMaxTruePlayer(board)
+      case "MCTS" => new MCTSPlayer(board)
+      case "Simple" => new MinMaxSimplePlayer(board)
+      case "Random" => new RandomPlayer(board)
+      case "Minimax" => new MinMaxTruePlayer(board)
     }
   }
 
