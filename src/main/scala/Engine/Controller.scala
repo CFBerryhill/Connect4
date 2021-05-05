@@ -67,11 +67,11 @@ object Controller extends App {
     val mode = readLine()
 
     if (mode.equals("0")) {
-      val p1 : Agent = new HumanPlayer(stand, 'X')
-      val p2 : Agent = new HumanPlayer(stand, '0')
+      val p1 : Agent = new HumanPlayer(stand, "X")
+      val p2 : Agent = new HumanPlayer(stand, "0")
       Array(GameConfig(stand, p1, p2,0))
     } else if (mode.equals("1")) {
-      val p1 : Agent = new HumanPlayer(stand, 'h')
+      val p1 : Agent = new HumanPlayer(stand, "h")
       val p2 : Agent = get_player_from_controller(stand)
       Array(GameConfig(stand,p1,p2,0))
     } else if (mode.equals("2")) {
@@ -179,7 +179,7 @@ object Controller extends App {
       case "MCTS" => new MCTSPlayer(board)
       case "Simple" => new MinMaxSimplePlayer(board)
       case "Random" => new RandomPlayer(board)
-      case "Minimax" => new MinMaxTruePlayer(board)
+      case "MiniMax" => new MinMaxTruePlayer(board)
     }
   }
 
