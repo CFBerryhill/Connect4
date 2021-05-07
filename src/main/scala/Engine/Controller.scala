@@ -46,7 +46,7 @@ object Controller extends App {
         }
         val fileWriter = new FileWriter(new File("results/" + gconfig.filename + ".txt"))
 
-        println("Game starting, player " + gconfig.player1.id + " going first vs " + gconfig.player2.id + " trial #" +gconfig.trial_num)
+        println("Game starting, player " + gconfig.player1.id + " going first vs " + gconfig.player2.id + " trial #" +gconfig.trial_num + " On board " + gconfig.board_config_to_string())
         while (!gconfig.board.game_over()) {
           //fileWriter.write(gconfig.board.toString + "\n")
           gconfig.board.print_board()
