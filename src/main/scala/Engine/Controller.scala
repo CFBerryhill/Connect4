@@ -5,7 +5,9 @@ import Agents.MonteCarlo.MCTSPlayer
 import Agents.{Agent, HumanPlayer, RandomPlayer}
 
 import java.io.{File, FileWriter}
+import java.text.SimpleDateFormat
 import java.util
+import java.util.Calendar
 import scala.annotation.tailrec
 import scala.io.Source._
 import scala.io.StdIn.readLine
@@ -15,6 +17,12 @@ object Controller extends App {
   val stand : Gameboard = new Gameboard(6,7,4)
 
   val agents = Array("m", "s", "r", "a")
+
+  // create the date/time formatters
+  val minuteFormat = new SimpleDateFormat("mm")
+  val hourFormat = new SimpleDateFormat("hh")
+  val secondFormat = new SimpleDateFormat("ss")
+  val amPmFormat = new SimpleDateFormat("a")
 
   def main(): Unit = {
 
@@ -44,7 +52,14 @@ object Controller extends App {
           gconfig.board.print_board()
           players(cnt % 2).make_move()
           cnt += 1
-          println("MOVE MADE")
+
+          val now = Calendar.getInstance().getTime
+
+          val currentHour = hourFormat.format(now)      // 12
+          val currentMinute = minuteFormat.format(now)  // 29
+          val currentSecond = secondFormat.format(now)
+          val amOrPm = amPmFormat.format(now)           // PM
+          println("MOVE MADE AT " + currentHour + ":" + currentMinute + ":" + currentSecond + " " + amOrPm)
         }
         println("Player " + gconfig.board.winner + " Won!")
         println(gconfig.get_game_info())
