@@ -17,7 +17,7 @@ case class GameConfig(val board : Gameboard, val player1 : Agent, val player2: A
   }
 
   def board_config_to_string() : String = {
-    board.cols + "x" + board.rows + " with connect = " + board.connect
+    board.rows + "x" + board.cols + " with connect = " + board.connect
   }
 
   def get_winner(): String = {
