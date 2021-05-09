@@ -28,9 +28,7 @@ object Controller extends App {
 
     val games = loop()
 
-      for(i <- games.indices) {
-
-        val gconfig = games(i)
+      for(gconfig <- games) {
 
         gconfig.board.reset_board()
 
@@ -53,21 +51,21 @@ object Controller extends App {
           players(cnt % 2).make_move()
           cnt += 1
 
+          //timestamp
           val now = Calendar.getInstance().getTime
-
-          val currentHour = hourFormat.format(now)      // 12
-          val currentMinute = minuteFormat.format(now)  // 29
+          val currentHour = hourFormat.format(now)
+          val currentMinute = minuteFormat.format(now)
           val currentSecond = secondFormat.format(now)
-          val amOrPm = amPmFormat.format(now)           // PM
+          val amOrPm = amPmFormat.format(now)
+
+          //to assure progress is being made
           println("MOVE MADE AT " + currentHour + ":" + currentMinute + ":" + currentSecond + " " + amOrPm)
         }
+        //end of game
         println("Player " + gconfig.board.winner + " Won!")
         println(gconfig.get_game_info())
 
         new java.io.File("results/" + gconfig.full_drctry).mkdirs
-
-
-
 
         fileWriter.write(gconfig.get_game_info())
         fileWriter.close()
@@ -77,7 +75,7 @@ object Controller extends App {
   @tailrec
   def loop() : Array[GameConfig] = {
     println("Welcome to Casey's Connect 4! " +
-      "Would you like to play against a human, an artifical agent, run tests, or battle 2 agents? (0, 1, 2, 3)")
+      "Would you like to play against a human, an artifical agent, run tests, battle 2 agents, or parse output? (0, 1, 2, 3, 4)")
 
     val mode = readLine()
 
@@ -96,7 +94,10 @@ object Controller extends App {
       val p1 : Agent = get_player_from_controller(board)
       val p2 : Agent = get_player_from_controller(board)
       Array(GameConfig(board,p1,p2,0))
-    }else {
+    } else if(mode.equals("4")) {
+      output_to_csv()
+      Array()
+    } else {
       println("Invalid, please try again")
       loop()
     }
@@ -196,6 +197,61 @@ object Controller extends App {
       case "Random" => new RandomPlayer(board)
       case "MiniMax" => new MinMaxTruePlayer(board)
     }
+  }
+
+  /**
+   * assumes testconfig is configured to what combination of directories output may need to go to
+   */
+  def output_to_csv() : Unit = {
+    val output = new FileWriter(new File("output.csv"))
+    output.write("Game Number,Board,Connect Length,Player 1,Player 2,Winner,Move Count\n")
+
+    //collect board directories, connect directories for those board directories, and player directories.
+    val bufferedsource = fromFile("testconfig.txt")
+    val iter = bufferedsource.getLines()
+    val trials = iter.next().toInt
+
+    var game_cnt = 0
+    while (iter.hasNext) {
+      val dimensions = iter.next()
+      val connect_lengths = iter.next().split(',')
+      val agents = iter.next().split(',')
+
+      for(connect_dir <- connect_lengths) {
+        for(player1 <- agents) {
+          for(player2 <- agents) {
+            for(i <- 0 until trials) {
+              val dir = "results/" + dimensions + "/" + connect_dir + "/" + player1 + "_vs_" + player2 + "/" + i + ".txt"
+              val string = game_cnt.toString + "," + dimensions + "," + connect_dir + "," +
+                           player1 + "," + player2 + "," + parse_output_file(dir)
+
+              output.write(string + "\n")
+              game_cnt += 1
+            }
+          }
+        }
+      }
+    }
+    output.close()
+  }
+
+  /**
+   *
+   *
+   * @param dir
+   * @return winner, move count
+   */
+  def parse_output_file(dir : String) : String = {
+    val bufferedsource = fromFile(dir)
+    val iter = bufferedsource.getLines()
+    //skip to winner
+    iter.next
+    iter.next
+
+    val winner = iter.next().split(":")(1).trim
+    val moves = iter.next().split(":")(1).trim
+
+    winner + "," + moves
   }
 
 }

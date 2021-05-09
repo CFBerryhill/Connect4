@@ -32,5 +32,4 @@ case class GameConfig(val board : Gameboard, val player1 : Agent, val player2: A
     "\nWinner:" + get_winner() +
     board.info()
   }
-
 }
