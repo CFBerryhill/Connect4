@@ -16,6 +16,10 @@ case class GameConfig(val board : Gameboard, val player1 : Agent, val player2: A
     Array(player1,player2)
   }
 
+  def board_config_to_string() : String = {
+    board.rows + "x" + board.cols + " with connect = " + board.connect
+  }
+
   def get_winner(): String = {
     board.game_over()
     board.winner match {
