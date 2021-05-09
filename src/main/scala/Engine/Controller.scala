@@ -75,7 +75,7 @@ object Controller extends App {
   @tailrec
   def loop() : Array[GameConfig] = {
 
-    return parse_test_config()
+    //return parse_test_config()
 
     println("Welcome to Casey's Connect 4! " +
       "Would you like to play against a human, an artifical agent, run tests, battle 2 agents, or parse output? (0, 1, 2, 3, 4)")
