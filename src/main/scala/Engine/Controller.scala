@@ -75,7 +75,7 @@ object Controller extends App {
   @tailrec
   def loop() : Array[GameConfig] = {
 
-    //return parse_test_config()
+    return parse_test_config()
 
     println("Welcome to Casey's Connect 4! " +
       "Would you like to play against a human, an artifical agent, run tests, battle 2 agents, or parse output? (0, 1, 2, 3, 4)")
@@ -207,14 +207,13 @@ object Controller extends App {
    */
   def output_to_csv() : Unit = {
     val output = new FileWriter(new File("output.csv"))
-    output.write("Game Number,Board,Connect Length,Player 1,Player 2,Winner,Move Count\n")
+    output.write("`Board,Connect Length,Player 1,Player 2,Winner,Move Count\n")
 
     //collect board directories, connect directories for those board directories, and player directories.
     val bufferedsource = fromFile("testconfig.txt")
     val iter = bufferedsource.getLines()
     val trials = iter.next().toInt
 
-    var game_cnt = 0
     while (iter.hasNext) {
       val dimensions = iter.next()
       val connect_lengths = iter.next().split(',')
@@ -225,11 +224,8 @@ object Controller extends App {
           for(player2 <- agents) {
             for(i <- 0 until trials) {
               val dir = "results/" + dimensions + "/" + connect_dir + "/" + player1 + "_vs_" + player2 + "/" + i + ".txt"
-              val string = game_cnt.toString + "," + dimensions + "," + connect_dir + "," +
-                           player1 + "," + player2 + "," + parse_output_file(dir)
-
+              val string = dimensions + "," + connect_dir + "," + player1 + "," + player2 + "," + parse_output_file(dir)
               output.write(string + "\n")
-              game_cnt += 1
             }
           }
         }
